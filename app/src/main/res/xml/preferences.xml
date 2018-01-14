@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="first_preferencescreen">
+
+    <Preference
+        android:key="selectImage"
+        android:title="Change header image"
+        android:icon="@drawable/ic_add_a_photo_black_48dp"/>
+
+    <ListPreference
+        android:key="mapstyle"
+        android:entries="@array/mapTypes"
+        android:entryValues="@array/listvalues"
+        android:icon="@drawable/ic_map_black_48dp"
+        android:title="Change Map Style"
+        android:summary="%s">
+    </ListPreference>
+
+
+</PreferenceScreen>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/aircraftTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Acft" />
+
+            <TextView
+                android:id="@+id/identTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ident" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/routeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Route"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/crosscountryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XC"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="10sp"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/simulatedInstrumentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INSTR."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="10sp"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalHoursTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Hours"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
